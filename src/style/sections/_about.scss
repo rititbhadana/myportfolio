@@ -29,6 +29,11 @@
       align-items: center;
       justify-content: center;
 
+      .shadow-lg{
+        border-radius: 15px !important;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.30), 0 3px 6px rgba(0, 0, 0, 0.35) !important;
+      }
+
       @include respond(tab-land) {
         height: 100%;
       }
